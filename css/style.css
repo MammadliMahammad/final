@@ -1,6 +1,413 @@
+#header1 {
+  font-family: "Rubik", sans-serif;
+  background-color: #10223A;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 999;
+  padding: 10px 0;
+}
+#header1 .boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header1 .boxes .box1 {
+  display: block;
+}
+#header1 .boxes .box img {
+  width: 100%;
+  max-height: 60px;
+}
+#header1 .boxes .box i {
+  display: block;
+  font-size: 25px;
+}
+#header1 .scroll {
+  display: block;
+  overflow: scroll;
+  width: 100%;
+  height: 400px;
+  overflow-x: hidden;
+}
+#header1 .scroll::-webkit-scrollbar {
+  background: #777;
+  width: 10px;
+  height: 8px;
+}
+#header1 .scroll::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+#header1 .link-bar {
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+#header1 .link-bar li {
+  padding: 1px 0;
+  margin: 5px 0;
+  font-weight: 700;
+}
+#header1 .link-bar li a {
+  color: #fff;
+  transition: 1s;
+  background-color: #10223A;
+  border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+  display: block;
+  padding: 10px 15px;
+  margin: 9px 0;
+}
+#header1 .link-bar li a:hover {
+  background-color: #FAB005;
+  border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+  padding: 10px 15px;
+  margin: 9px 0;
+  color: #10223A;
+}
+#header1 .link-bar .pages {
+  position: relative;
+}
+#header1 .link-bar .pages:hover .dropdown {
+  display: block;
+}
+#header1 .link-bar .pages .dropdown {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+#header1 .link-bar .pages .dropdown ul li {
+  margin: 0;
+  padding: 4px 0;
+}
+#header1 .link-bar .pages .dropdown ul li a {
+  color: #000;
+  border-radius: 0;
+  background-color: #fff;
+  padding: 3px 0 !important;
+  margin: 0 !important;
+  display: inline-block;
+  width: 100%;
+}
+#header1 .link-bar .pages .dropdown ul li a:hover {
+  background-color: #FAB005;
+  color: #fff;
+}
+#header1 .link-bar1 {
+  display: none;
+}
+#header1 .link-bar2 {
+  display: none;
+  font-size: 14px;
+}
+#header1 .link-bar2 li {
+  color: #fff;
+  padding: 5px 0;
+}
+#header1 .link-bar2 li .icons i {
+  color: #FAB005;
+  transition: 0.3s;
+}
+#header1 .link-bar2 li .icons i:hover {
+  color: #fff;
+}
+#header1 .link-bar2 li i {
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-family: "ABeeZee", serif;
+  font-size: 1.5em;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #header1 {
+    font-family: "Rubik", sans-serif;
+    background-color: #10223A;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 999;
+    padding: 10px 0;
+  }
+  #header1 .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header1 .boxes .box1 {
+    display: block;
+  }
+  #header1 .boxes .box img {
+    width: 100%;
+    max-height: 60px;
+  }
+  #header1 .boxes .box i {
+    display: block;
+    font-size: 25px;
+  }
+  #header1 .scroll {
+    display: block;
+    overflow: scroll;
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+  }
+  #header1 .scroll::-webkit-scrollbar {
+    background: #777;
+    width: 10px;
+    height: 8px;
+  }
+  #header1 .scroll::-webkit-scrollbar-thumb {
+    background: #fff;
+  }
+  #header1 .link-bar {
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #header1 .link-bar li {
+    padding: 1px 0;
+    margin: 5px 0;
+    font-weight: 700;
+  }
+  #header1 .link-bar li a {
+    color: #fff;
+    transition: 1s;
+    background-color: #10223A;
+    border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+    display: block;
+    padding: 10px 15px;
+    margin: 9px 0;
+  }
+  #header1 .link-bar li a:hover {
+    background-color: #FAB005;
+    border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+    padding: 10px 15px;
+    margin: 9px 0;
+    color: #10223A;
+  }
+  #header1 .link-bar .pages {
+    position: relative;
+  }
+  #header1 .link-bar .pages:hover .dropdown {
+    display: block;
+  }
+  #header1 .link-bar .pages .dropdown {
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  }
+  #header1 .link-bar .pages .dropdown ul li {
+    margin: 0;
+    padding: 4px 0;
+  }
+  #header1 .link-bar .pages .dropdown ul li a {
+    color: #000;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 3px 0 !important;
+    margin: 0 !important;
+    display: inline-block;
+    width: 100%;
+  }
+  #header1 .link-bar .pages .dropdown ul li a:hover {
+    background-color: #FAB005;
+    color: #fff;
+  }
+  #header1 .link-bar1 {
+    display: none;
+  }
+  #header1 .link-bar2 {
+    display: none;
+    font-size: 14px;
+  }
+  #header1 .link-bar2 li {
+    color: #fff;
+    padding: 5px 0;
+  }
+  #header1 .link-bar2 li .icons i {
+    color: #FAB005;
+    transition: 0.3s;
+  }
+  #header1 .link-bar2 li .icons i:hover {
+    color: #fff;
+  }
+  #header1 .link-bar2 li i {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 4.3em;
+    line-height: 1em;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 3.4em;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+  }
+  h3 {
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  h4 {
+    font-size: 1.8em;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #header1 {
+    font-family: "Rubik", sans-serif;
+    background-color: #10223A;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 999;
+    padding: 10px 0;
+  }
+  #header1 .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header1 .boxes .box1 {
+    display: block;
+  }
+  #header1 .boxes .box img {
+    width: 100%;
+    max-height: 60px;
+  }
+  #header1 .boxes .box i {
+    display: block;
+    font-size: 25px;
+  }
+  #header1 .scroll {
+    display: block;
+    overflow: scroll;
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+  }
+  #header1 .scroll::-webkit-scrollbar {
+    background: #777;
+    width: 10px;
+    height: 8px;
+  }
+  #header1 .scroll::-webkit-scrollbar-thumb {
+    background: #fff;
+  }
+  #header1 .link-bar {
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  #header1 .link-bar li {
+    padding: 1px 0;
+    margin: 5px 0;
+    font-weight: 700;
+  }
+  #header1 .link-bar li a {
+    color: #fff;
+    transition: 1s;
+    background-color: #10223A;
+    border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+    display: block;
+    padding: 10px 15px;
+    margin: 9px 0;
+  }
+  #header1 .link-bar li a:hover {
+    background-color: #FAB005;
+    border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+    padding: 10px 15px;
+    margin: 9px 0;
+    color: #10223A;
+  }
+  #header1 .link-bar .pages {
+    position: relative;
+  }
+  #header1 .link-bar .pages:hover .dropdown {
+    display: block;
+  }
+  #header1 .link-bar .pages .dropdown {
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  }
+  #header1 .link-bar .pages .dropdown ul li {
+    margin: 0;
+    padding: 4px 0;
+  }
+  #header1 .link-bar .pages .dropdown ul li a {
+    color: #000;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 3px 0 !important;
+    margin: 0 !important;
+    display: inline-block;
+    width: 100%;
+  }
+  #header1 .link-bar .pages .dropdown ul li a:hover {
+    background-color: #FAB005;
+    color: #fff;
+  }
+  #header1 .link-bar1 {
+    display: none;
+  }
+  #header1 .link-bar2 {
+    display: none;
+    font-size: 14px;
+  }
+  #header1 .link-bar2 li {
+    color: #fff;
+    padding: 5px 0;
+  }
+  #header1 .link-bar2 li .icons i {
+    color: #FAB005;
+    transition: 0.3s;
+  }
+  #header1 .link-bar2 li .icons i:hover {
+    color: #fff;
+  }
+  #header1 .link-bar2 li i {
+    font-size: 13px;
+  }
+}
 @media (min-width: 1200px) {
   #header1 {
-    display: block;
     font-family: "Rubik", sans-serif;
     background-color: #10223A;
     width: 34vh;
@@ -12,10 +419,24 @@
     text-align: center;
     padding: 100px 0;
   }
-  #header1 img {
-    width: 60%;
+  #header1 .boxes .box1 {
+    display: none;
+  }
+  #header1 .boxes .box {
+    margin: auto;
+  }
+  #header1 .boxes .box img {
+    width: 100%;
+    max-height: 170px;
+  }
+  #header1 .boxes .box i {
+    display: none;
+  }
+  #header1 .scroll {
+    display: none;
   }
   #header1 .link-bar {
+    display: block;
     padding: 20px 0;
     text-transform: uppercase;
   }
@@ -63,14 +484,72 @@
     color: #000;
     border-radius: 0;
     background-color: #fff;
-    padding: 5px 0 !important;
+    padding: 3px 0 !important;
+    margin: 0 !important;
     display: inline-block;
+    width: 100%;
   }
   #header1 .link-bar .pages .dropdown ul li a:hover {
     background-color: #FAB005;
     color: #fff;
   }
+  #header1 .link-bar1 {
+    display: block;
+    padding: 20px 0;
+    text-transform: uppercase;
+  }
+  #header1 .link-bar1 li {
+    padding: 9px 0;
+    margin: 5px 0;
+    font-weight: 700;
+  }
+  #header1 .link-bar1 li a {
+    color: #fff;
+    transition: 1s;
+    background-color: #10223A;
+    border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+    padding: 10px 15px;
+    margin: 9px 0;
+  }
+  #header1 .link-bar1 li a:hover {
+    background-color: #FAB005;
+    border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
+    padding: 10px 15px;
+    margin: 9px 0;
+    color: #10223A;
+  }
+  #header1 .link-bar1 .pages:hover .dropdown {
+    display: block;
+  }
+  #header1 .link-bar1 .pages .dropdown {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 190px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+  }
+  #header1 .link-bar1 .pages .dropdown ul li {
+    margin: 0;
+    padding: 4px 0;
+  }
+  #header1 .link-bar1 .pages .dropdown ul li a {
+    color: #000;
+    border-radius: 0;
+    background-color: #fff;
+    padding: 9px 0 !important;
+    margin: 0 !important;
+    display: inline-block;
+    width: 100%;
+  }
+  #header1 .link-bar1 .pages .dropdown ul li a:hover {
+    background-color: #FAB005;
+    color: #fff;
+  }
   #header1 .link-bar2 {
+    display: block;
     font-size: 14px;
   }
   #header1 .link-bar2 li {
@@ -87,110 +566,584 @@
   #header1 .link-bar2 li i {
     font-size: 13px;
   }
-  #header2 {
-    display: none;
+}
+.button-services {
+  padding: 10px;
+  margin-top: 28px;
+  border-radius: 30px;
+  border: #10223a;
+  background-color: #10223a;
+  transition: 0.5s;
+}
+.button-services a {
+  color: #fff;
+}
+.button-services:hover {
+  background-color: #FAB005;
+}
+
+#services1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: 0;
+  top: 80px;
+  background-color: rgba(16, 34, 58, 0.5450980392);
+}
+#services1 .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background-color: rgba(16, 34, 58, 0.5450980392);
+}
+#services1 .overlay .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#services1 .overlay .text h1 {
+  font-size: 35px;
+  color: white;
+  margin-top: 15%;
+}
+#services1 .overlay .text .home-txt {
+  color: white;
+}
+#services1 .overlay .text .home-txt a {
+  color: #FBC444;
+}
+#services1 .overlay .text .home-txt a:hover {
+  color: #fff;
+}
+#services1 .overlay .text #our-rates-txt {
+  display: inline;
+  color: white;
+}
+#services1 .overlay .text #our-rates-txt a {
+  color: white;
+}
+#services1 .overlay .text #our-rates-txt a:hover {
+  color: #D1960D;
+}
+#services1 .slide img {
+  width: 100%;
+  max-height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#services1 svg {
+  position: absolute;
+  z-index: 5;
+  bottom: -1px;
+  width: 100%;
+  height: 20%;
+  transform: rotate(180deg);
+}
+
+#services2 {
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+}
+#services2 .serv2 {
+  width: 100%;
+}
+#services2 .serv2 .serv2image {
+  position: relative;
+}
+#services2 .serv2 .serv2image .sei1 {
+  border-radius: 0.65em;
+}
+#services2 .serv2 .serv2image .sei2 {
+  position: absolute;
+  right: 0%;
+  bottom: -17%;
+}
+#services2 .serv2 .serv2letter span {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #A9A9A9;
+}
+#services2 .serv2 .serv2letter span i {
+  transform: rotate(40deg);
+  color: #FAB005 !important;
+  opacity: 0.5;
+}
+#services2 .serv2 .serv2letter h2 {
+  font-size: 32px;
+  font-family: serif;
+  font-weight: bold;
+  color: #10223a;
+  margin-bottom: 20px;
+}
+#services2 .serv2 .serv2letter p {
+  font-size: 17px;
+  color: #444444;
+}
+#services2 .serv2 .serv2letter p strong {
+  font-size: 17px;
+  color: #444444;
+}
+
+#services3 {
+  width: 100%;
+  height: auto;
+}
+#services3 .serv3 {
+  position: relative;
+}
+#services3 .serv3 .serv3-1 {
+  transition: 0.5s;
+  height: 100%;
+  text-align: center;
+  background-color: #FDF3E2;
+  padding: 25px 0 80px 0;
+  border-radius: 30px;
+  margin: auto;
+}
+#services3 .serv3 .serv3-1 img {
+  width: 60%;
+  border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.7s ease-in-out;
+}
+#services3 .serv3 .serv3-1 img:hover {
+  border-radius: 47% 52% 33% 67%/30% 45% 53% 66%;
+}
+#services3 .serv3 .serv3-1 .serv3letter {
+  width: 75%;
+  height: 40%;
+  margin: auto;
+}
+#services3 .serv3 .serv3-1 .serv3letter h4 {
+  margin: 48px 0 20px 0;
+  font-size: 24px;
+  color: #10223a;
+}
+#services3 .serv3 .serv3-1 .serv3letter p {
+  font-size: 17px;
+}
+#services3 .serv3 .serv3-1:hover img {
+  transform: scale(1.1);
+}
+#services3 .serv3 .serv3-2 {
+  display: none;
+}
+#services3 .serv3 .serv3-3 {
+  display: none;
+}
+#services3 .serv3 .dots {
+  width: 100%;
+  display: flex;
+  height: 2vh;
+  justify-content: center;
+  margin: 10% 0%;
+  padding: 0% 3%;
+}
+#services3 .serv3 .dots .dot {
+  width: 30px;
+  font-size: 5px;
+  color: black;
+}
+#services3 .serv3 .dots .dot2 {
+  width: 30px;
+  font-size: 5px;
+  color: grey;
+}
+
+#services4 {
+  width: 100%;
+  height: auto;
+  padding: 130px 0;
+}
+#services4 .serv4 {
+  background-color: #FDF3E2;
+  height: 60vh;
+  position: relative;
+}
+#services4 .serv4 .ala, #services4 .serv4 .ala2 {
+  display: none;
+}
+#services4 .serv4 .box {
+  height: 40vh;
+}
+#services4 .serv4 .box img {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+#services4 .serv4 .box2 {
+  padding-top: 70px;
+}
+
+#services5 {
+  width: 100%;
+  height: auto;
+}
+#services5 p {
+  font-size: 20px;
+  color: #444444;
+}
+#services5 .serv5 {
+  margin-top: 150px;
+}
+#services5 .serv5 span {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #A9A9A9;
+}
+#services5 .serv5 span i {
+  transform: rotate(40deg);
+  color: #FAB005 !important;
+  opacity: 0.5;
+}
+#services5 .serv5 span .serv5letter {
+  width: 95%;
+  height: 30vh;
+}
+#services5 .serv5 h2 {
+  color: #10223a;
+  margin-bottom: 20px;
+}
+#services5 .serv5letter {
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  padding: 30px;
+  top: 10px;
+  left: -10px;
+}
+#services5 .serv5letter i {
+  font-size: 40px;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+}
+#services5 .serv5letter p {
+  background-color: #DEE9F7;
+  padding: 30px;
+}
+#services5 .serv5letter img {
+  max-width: 120px;
+}
+
+@media (min-width: 768px) {
+  #services2 .serv2 .serv2letter span {
+    font-size: 15px;
+  }
+  #services2 .serv2 .serv2letter h2 {
+    font-size: 54.4px;
+  }
+  .button-services {
+    padding: 10px 40px;
+    margin-top: 28px;
+    border-radius: 30px;
+    border: #10223a;
+    background-color: #10223a;
+    transition: 0.5s;
+  }
+  .button-services a {
+    color: #fff;
+  }
+  .button-services:hover {
+    background-color: #FAB005;
+  }
+  #services3 {
+    margin-left: -20px;
+  }
+  #services3 .serv3 .serv3-1 {
+    width: 300px;
+  }
+  #services3 .serv3 .serv3-2 {
+    display: block;
   }
 }
-@media (max-width: 1200px) {
-  #header1 {
-    display: none;
+@media (min-width: 992px) {
+  #services1 {
+    width: 100%;
+    top: 0;
   }
-  #header2 {
-    z-index: 999;
-    display: block;
-    background-color: #10223A;
+  #services1 svg {
+    height: 16vh;
+  }
+  #services1 .overlay .text h1 {
+    font-size: 70px;
+  }
+  #services3 {
     width: 100%;
     height: auto;
-    padding: 5px 0;
   }
-  #header2 .header-kapsam .box img {
-    width: 60px;
-  }
-  #header2 .header-kapsam .box i {
-    font-size: 30px;
-    color: #fff;
-  }
-  #header2 .scroll {
-    overflow: scroll;
-    width: 100%;
-    height: 400px;
-    overflow-x: hidden;
-  }
-  #header2 .scroll::-webkit-scrollbar {
-    background: #777;
-    width: 10px;
-    height: 8px;
-  }
-  #header2 .scroll::-webkit-scrollbar-thumb {
-    background: #fff;
-  }
-  #header2 .link-bar3 {
-    width: 100%;
-    text-transform: uppercase;
-  }
-  #header2 .link-bar3 li {
-    padding: 9px 0;
-    margin: 5px 0;
-    font-weight: 700;
-  }
-  #header2 .link-bar3 li a {
-    color: #fff;
-    transition: 0.5s;
-    background-color: #10223A;
-    border-radius: 62% 56% 100% 14%/73% 27% 113% 48%;
+  #services3 .serv3 .serv3-3 {
     display: block;
-    padding: 9px 0;
-    margin: 5px 0;
   }
-  #header2 .link-bar3 li a:hover {
-    background-color: #FAB005;
-    border-radius: 62% 38% 82% 18%/54% 61% 39% 46%;
-    color: #10223A;
+  #services5 .serv5letter {
+    width: 50%;
+    margin-left: 0;
   }
-  #header2 .link-bar3 .pages {
+}
+@media (min-width: 1200px) {
+  #services1 {
+    width: auto;
+    margin-left: 34vh;
+  }
+  #services1 svg {
+    width: 100%;
+    height: 16vh;
+  }
+  #services1 .overlay .text h1 {
+    font-size: 70px;
+  }
+  #services2 {
+    width: 75%;
+    margin-left: 25%;
+  }
+  #services3 {
+    margin-left: 19%;
+    width: 80%;
+    margin-top: 200px;
+  }
+  #services3 .serv3 .serv3-1 {
+    width: 300px;
+  }
+  #services4 {
+    width: auto;
+    margin-left: 17%;
+  }
+  #services4 .serv4 {
     position: relative;
   }
-  #header2 .link-bar3 .pages:hover .dropdown {
+  #services4 .serv4 .ala {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: block;
   }
-  #header2 .link-bar3 .pages .dropdown {
-    background-color: #fff;
-    width: 190px;
-    border-radius: 5px;
-    border: 1px solid gainsboro;
+  #services4 .serv4 .ala2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
   }
-  #header2 .link-bar3 .pages .dropdown ul li {
-    margin: 0;
-    padding: 4px 0;
+  #services4 .serv4 .box2 {
+    padding-top: 50px;
+    padding-right: 60px;
   }
-  #header2 .link-bar3 .pages .dropdown ul li a {
-    color: #10223A;
-    font-weight: 500;
-    border-radius: 0;
-    background-color: #fff;
-    padding: 5px 0 !important;
-    display: inline-block;
+  #services4 .serv4 .box {
+    padding-right: 250px;
   }
-  #header2 .link-bar3 .pages .dropdown ul li a:hover {
-    background-color: #FAB005;
-    color: #fff;
+  #services5 {
+    width: 70%;
+    margin-left: 25%;
   }
-  #header2 .link-bar2 {
-    font-size: 14px;
+}
+#services1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: 0;
+  top: 80px;
+  background-color: rgba(16, 34, 58, 0.5450980392);
+}
+#services1 .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background-color: rgba(16, 34, 58, 0.5450980392);
+}
+#services1 .overlay .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#services1 .overlay .text h1 {
+  font-size: 35px;
+  color: white;
+  margin-top: 15%;
+}
+#services1 .overlay .text .home-txt {
+  color: white;
+}
+#services1 .overlay .text .home-txt a {
+  color: #FBC444;
+}
+#services1 .overlay .text .home-txt a:hover {
+  color: #fff;
+}
+#services1 .overlay .text #our-rates-txt {
+  display: inline;
+  color: white;
+}
+#services1 .overlay .text #our-rates-txt a {
+  color: white;
+}
+#services1 .overlay .text #our-rates-txt a:hover {
+  color: #D1960D;
+}
+#services1 .slide img {
+  width: 100%;
+  max-height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#services1 svg {
+  position: absolute;
+  z-index: 5;
+  bottom: -1px;
+  width: 100%;
+  height: 20%;
+  transform: rotate(180deg);
+}
+
+#about2 {
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+}
+#about2 .serv2 {
+  width: 100%;
+}
+#about2 .serv2 .serv2image {
+  position: relative;
+}
+#about2 .serv2 .serv2image .sei1 {
+  border-radius: 0.65em;
+}
+#about2 .serv2 .serv2image .sei2 {
+  position: absolute;
+  left: 0%;
+  bottom: -17%;
+}
+#about2 .serv2 .serv2letter span {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #A9A9A9;
+}
+#about2 .serv2 .serv2letter span i {
+  transform: rotate(40deg);
+  color: #FAB005 !important;
+  opacity: 0.5;
+}
+#about2 .serv2 .serv2letter h2 {
+  font-size: 32px;
+  font-family: serif;
+  font-weight: bold;
+  color: #10223a;
+  margin-bottom: 20px;
+}
+#about2 .serv2 .serv2letter p {
+  font-size: 17px;
+  color: #444444;
+}
+#about2 .serv2 .serv2letter p strong {
+  font-size: 17px;
+  color: #444444;
+}
+
+#about3 {
+  width: 100%;
+  height: auto;
+}
+#about3 .ab1 h5 {
+  font-size: 24px;
+  color: #10223a;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+#about3 .ab1 span {
+  font-size: 18px;
+  color: #444444;
+}
+#about3 .ab1 p {
+  font-size: 17px;
+  color: #444444;
+}
+#about3 .ab1 .ab1-img {
+  width: 100%;
+  position: relative;
+}
+#about3 .ab1 .ab1-img img {
+  border-radius: 30% 70% 70% 30%/30% 45% 55% 70%;
+  max-width: 150px;
+}
+#about3 .dots {
+  width: 100%;
+  display: flex;
+  height: 2vh;
+  justify-content: center;
+  margin: 10% 0%;
+  padding: 0% 3%;
+}
+#about3 .dots .dot {
+  width: 30px;
+  font-size: 5px;
+  color: black;
+}
+#about3 .dots .dot2 {
+  width: 30px;
+  font-size: 5px;
+  color: grey;
+}
+
+@media (min-width: 768px) {
+  #about2 .serv2 .serv2letter span {
+    font-size: 15px;
   }
-  #header2 .link-bar2 li {
-    color: #fff;
-    padding: 5px 0;
+  #about2 .serv2 .serv2letter h2 {
+    font-size: 54.4px;
   }
-  #header2 .link-bar2 li .icons i {
-    color: #FAB005;
-    transition: 0.3s;
+}
+@media (min-width: 992px) {
+  #services1 {
+    width: 100%;
+    top: 0;
   }
-  #header2 .link-bar2 li .icons i:hover {
-    color: #fff;
+  #services1 svg {
+    height: 16vh;
   }
-  #header2 .link-bar2 li i {
-    font-size: 13px;
+  #services1 .overlay .text h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  #services1 {
+    width: auto;
+    margin-left: 34vh;
+  }
+  #services1 svg {
+    width: 100%;
+    height: 16vh;
+  }
+  #services1 .overlay .text h1 {
+    font-size: 70px;
+  }
+  #about2 {
+    width: 75%;
+    margin-left: 25%;
+  }
+  #about3 {
+    width: 75%;
+    margin-left: 22%;
+    padding-top: 90px;
   }
 }
 * {
